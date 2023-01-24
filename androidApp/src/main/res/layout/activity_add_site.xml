@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addWebsite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp"
+        android:paddingHorizontal="8dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/newSiteNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/new_site_name"
+            android:hint="@string/website_name"
+            android:layout_marginBottom="16dp"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/newSiteUrlText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:text="@string/new_site_url"
+            android:hint="@string/website_url"
+            android:layout_marginBottom="16dp"
+            android:autofillHints="" />
+        <Spinner
+            android:id="@+id/siteTypeSpin"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="32dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/addSiteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_website"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FYI.icu</string>
+
+    <string name="server_up">Server Up</string>
+    <string name="server_down">Server Down</string>
+    <string name="no_data">No data</string>
+
+    <string name="site_name_field">
+    <![CDATA[
+    Site: <b>%s</b> - Type: <b>%s</b>
+    ]]>
+    </string>
+
+    <string name="email">Email</string>
+    <string name="upload">Upload</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="check">Check</string>
+    <string name="add">Add</string>
+    <string name="new_site">New Website</string>
+    <string name="new_site_name" />
+    <string name="website_name">Website Name</string>
+    <string name="add_website">Add Website</string>
+    <string name="new_site_url" />
+    <string name="website_url">URL</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="fyi_ip">FYI IP</string>
+    <string name="start_monitoring">Start Monitoring</string>
+    <string name="monitor">Monitor</string>
+    <string name="channel_name">FYI</string>
+    <string name="channel_description">FYI.icu Notifications Channel</string>
+    <string name="home">Home</string>
+    <string name="get_location">Get location</string>
+    <string name="current_gps_location">Current GPS Location</string>
+    <string name="tutorialspoint">TutorialsPoint</string>
+    <string name="location">Location</string>
+    <string name="name">Name</string>
+    <string name="unknown">unknown</string>
+    <string name="player_view">Player View</string>
+</resources>

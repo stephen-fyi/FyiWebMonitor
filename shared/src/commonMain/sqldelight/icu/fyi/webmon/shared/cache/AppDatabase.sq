@@ -1,0 +1,58 @@
+CREATE TABLE User (
+    uuid   TEXT NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL,
+    email TEXT NOT NULL,
+    latitude REAL,
+    longitude REAL
+);
+
+CREATE TABLE Website (
+    id   TEXT NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL,
+    url TEXT NOT NULL,
+    live INTEGER AS Boolean DEFAULT NULL,
+    type TEXT NOT NULL,
+    checkedAt TEXT NOT NULL
+);
+
+insertWebsite:
+INSERT INTO Website(id, name, url, live, type, checkedAt)
+VALUES(?, ?, ?,?,?, ?);
+
+insertUser:
+INSERT INTO User(uuid, name, email, latitude, longitude)
+VALUES(?,?,?,?,?);
+
+removeAllWebsites:
+DELETE FROM Website;
+
+deleteUsers:
+DELETE FROM User;
+
+selectAllWebsites:
+SELECT *
+FROM Website;
+
+selectUsers:
+SELECT *
+FROM User;
+
+deleteWebsite:
+DELETE
+FROM Website
+WHERE id = ?;
+
+findById:
+SELECT *
+FROM Website
+WHERE id = ?;
+
+findUserById:
+SELECT *
+FROM User
+WHERE uuid = ?;
+
+updateWebsite:
+UPDATE Website
+SET name=?, url=?, live=?, type=?, checkedAt=?
+WHERE id = ?;

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "435955998034",
+    "project_id": "webmon-fyi-icu",
+    "storage_bucket": "webmon-fyi-icu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435955998034:android:3a181dde2bba50bdcc6e8b",
+        "android_client_info": {
+          "package_name": "icu.fyi.webmon.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435955998034-an08dmtf1k0666tjt4ijh2f7rlc4jcnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRv_k3eB0UycoHTkRkzHawsXJfsfEonfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435955998034-an08dmtf1k0666tjt4ijh2f7rlc4jcnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
